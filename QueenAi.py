@@ -38,21 +38,21 @@ async def chatbot(client, message):
     umm = await message.reply_sticker("CAACAgUAAxkBAALyX2QqjZ4PYInIurslUHkSeoHDtslIAAKpCAACeURZVXSsBGaFz_JTLwQ")
     await asyncio.sleep(2)
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a406783ab421e5c53ab13.jpg",
+        photo=f"https://telegra.ph/file/4dc2b7beb1c17aaa5b1c4.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
 👻 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ 𝐌𝐑 𝐀𝐘𝐔𝐒𝐇 ♥️
+ᴏғ ♻️ 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 ♥️
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [𝐌𝐑 𝐀𝐘𝐔𝐒𝐇](https://t.me/Venom_bolte_public)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/Heroku_Dyno)
-┣★ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [ᴄʜᴀᴛ](https://t.me/Its_Venom_family)
+┣★ ᴄʀᴇᴀᴛᴇʀ [𝐋𝐮𝐜𝐢𝐟𝐞𝐫](https://t.me/@The_Lucifer_Was_Bot)
+┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/about_lucifer1)
+┣★ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [ᴄʜᴀᴛ](https://t.me/wilderharley_650)
 ┗━━━━━━━━━━━━━━━━━┛
 🥵
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Venom_bolte_public""",
+IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @The_Lucifer_Was_Bot""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("💟 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💟", url=f"https://t.me/Its_Venom_family")]]
+            [[InlineKeyboardButton("💟 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💟", url=f"https://t.me/wilderharley_650")]]
         ),
     ) 
 @client.on_message(filters.command("stats"))
